@@ -1,0 +1,13 @@
+listar_operaciones
+camino_mas rapido,San Diego,New York
+camino_mas barato,San Diego,New York
+camino_escalas San Diego,New York
+centralidad 5
+centralidad_aprox 3
+pagerank 5
+nueva_aerolinea bAIRos.csv
+recorrer_mundo San Diego
+recorrer_mundo_aprox Kansas City
+vacaciones San Diego,6
+itinerario itinerario_ejemplo.csv
+exportar_kml test_kml.kml
