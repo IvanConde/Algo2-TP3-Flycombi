@@ -33,9 +33,9 @@ Adicionalmente, para poder realizar algunas pruebas rápidas (especialmente en l
 * Más allá de tener los datos de un país en especial, el programa debería funcionar para cualquier parte del mundo.
 
 ## Implementación
-El trabajo puede realizarse en lenguaje a elección, siendo aceptados Python y C, y cualquier otro a ser discutido con el corrector asignado.
+El ejercicio puede realizarse en lenguaje a elección, siendo aceptados Python y C, y cualquier otro a ser discutido con el corrector asignado.
 
-El trabajo consiste de 3 partes:
+El ejercicio consiste de 3 partes:
 
 1. El TDA Grafo, con sus primitivas.
 2. Una biblioteca de funciones de grafos, que permitan hacer distintas operaciones sobre un grafo de aeropuertos del mundo, sin importar cuál sea el aeropuerto ni país al que pertence.
@@ -184,16 +184,3 @@ flycombi: flycombi.py grafo.py biblioteca.py
 	cp flycombi.py flycombi
 	chmod +x flycombi
 Importante: En caso de recibir un error FileNotFoundError: [Errno 2] No such file or directory: './flycombi': './flycombi', tener en cuenta que para el caso de enviar código escrito en Python es necesario además indicar la ruta del intérprete. Esto puede hacerse agregando como primera línea del archivo principal (en el ejemplo, sería flycombi.py) la línea: #!/usr/bin/python3.
-
-## Criterios de aprobación
-El código entregado debe ser claro y legible y ajustarse a las especificaciones de la consigna. Debe compilar sin advertencias y correr sin errores de memoria.
-
-La entrega incluye, obligatoriamente, los siguientes archivos de código:
-
-* el código del TDA Grafo programado, y cualquier otro TDA que fuere necesario.
-* el código de la solución del TP.
-
-La entrega se realiza:
-
-1. en forma digital a través del sistema de entregas, con todos los archivos mencionados en un único archivo ZIP.
-2. en papel durante la clase (si su ayudante lo requiere) el código del Trabajo en hoja A4 abrochadas, sin folio, informe ni carátula.
