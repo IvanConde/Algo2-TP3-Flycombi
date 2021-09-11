@@ -176,11 +176,3 @@ Ejemplo: Entrada:
  vacaciones San Diego,6
  exportar_kml kml-ejemplo.kml
 Salida: SAN -> ABQ -> HOU -> AUS -> LAX -> BNA -> SAN OK Aquí pueden encontrar el archivo KML exportado.
-
-## Entrega
-Adicionalmente a los archivos propios del trabajo práctico debe agregarse un archivo entrega.mk que contenga la regla flycombi para generar el ejecutable de dicho programa (sea compilando o los comandos que fueren necesarios). Por ejemplo, teniendo un TP elaborado en Python, podría ser:
-
-flycombi: flycombi.py grafo.py biblioteca.py
-	cp flycombi.py flycombi
-	chmod +x flycombi
-Importante: En caso de recibir un error FileNotFoundError: [Errno 2] No such file or directory: './flycombi': './flycombi', tener en cuenta que para el caso de enviar código escrito en Python es necesario además indicar la ruta del intérprete. Esto puede hacerse agregando como primera línea del archivo principal (en el ejemplo, sería flycombi.py) la línea: #!/usr/bin/python3.
